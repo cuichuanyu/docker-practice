@@ -17,3 +17,9 @@ Search `localhost:5000` to access website.
 
 `$ docker run -d -p 5000:5000 --link redisapp --name dockerapp shawnkoon/docker_app:2.00`
 
+## v3
+`$ docker-compose up -d`
+
+`$ docker-compose logs`
+
+`$ docker-compose down`

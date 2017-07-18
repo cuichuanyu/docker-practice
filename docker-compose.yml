@@ -1,0 +1,14 @@
+version: '2'
+services:
+  dockerapp:
+    build: .
+    image: "shawnkoon/docker_app:3.00"
+    container_name: "dockerapp"
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app:/app
+
+  redisapp:
+    image: redis:3.2.0
+    container_name: "redisapp"
