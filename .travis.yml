@@ -1,0 +1,11 @@
+install:
+  - pip install docker-compose
+
+before_script:
+  - docker-compose up --build -d
+
+script:
+  - docker-compose run dockerapp python test.py
+
+after_script:
+  - docker-compose down
