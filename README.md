@@ -23,3 +23,14 @@ Search `localhost:5000` to access website.
 `$ docker-compose logs`
 
 `$ docker-compose down`
+
+## v4
+`$ docker-compose up -d`
+
+`$ docker network inspect dockerpractice_shawnkoon_network`
+
+`$ docker inspect dockerapp | grep 'network'`
+
+`$ docker inspect redisapp | grep 'network'`
+
+`$ docker-compose down`

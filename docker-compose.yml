@@ -8,7 +8,15 @@ services:
       - "5000:5000"
     volumes:
       - ./app:/app
+    networks:
+      - shawnkoon_network
 
   redisapp:
     image: redis:3.2.0
     container_name: "redisapp"
+    networks:
+      - shawnkoon_network
+
+networks:
+  shawnkoon_network:
+    driver: bridge
