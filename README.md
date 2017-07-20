@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/shawnkoon/docker-practice.svg?branch=master)](https://travis-ci.org/shawnkoon/docker-practice)
 # docker-practice
 Docker practice to get familiarized with docker.
 
