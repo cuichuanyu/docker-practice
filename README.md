@@ -34,3 +34,13 @@ Search `localhost:5000` to access website.
 `$ docker inspect redisapp | grep 'network'`
 
 `$ docker-compose down`
+
+## v5
+
+`$ docker-compose up -d`
+
+`$ docker-compose ps`
+
+`$ docker-compose run dockerapp python test.py`
+
+`$ docker-compose down`
